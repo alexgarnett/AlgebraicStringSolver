@@ -16,4 +16,10 @@ The input must be entered as a string. Numbers can be integers or floats. Correc
 # Output
 ```
 '4.00'
-``
+```
+
+# Testing
+From command line:
+```
+python3 -m unittest
+```
