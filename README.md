@@ -11,7 +11,11 @@ git clone https://github.com/alexgarnett/AlgebraicStringSolver
 from AlgebraicProblemSolver.src.solver import *
 answer = solve('12 - 4 * 2')
 ```
-The input must be entered as a string. Numbers can be integers or floats. Correct format is number followed by operator, followed by number, and so on. There must be a single space on each side of an operator. There must be a digit at the first and last index of the string.
+The input must be entered as a string. Numbers can be integers or floats. 
+Correct format is number followed by operator, followed by number, and so on. 
+There must be a single space on each side of an operator. 
+Allowable operators are + - * and /.
+There must be a digit at the first and last index of the string.
 
 # Output
 ```
